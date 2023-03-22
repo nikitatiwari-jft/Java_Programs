@@ -51,23 +51,23 @@ public class QuadTest {
         Rectangle Robj2 = new Rectangle(20, 40);
         Cube Cobj1 = new Cube(6);
         Cube Cobj2 = new Cube(7);
-        System.out.println("________________________________________ ");
+        System.out.println("the area and paremeter of first rectangle");
 
         Robj1.Area();
         Robj1.Perimeter();
         Robj1.display();
 
 
-        System.out.println("________________________________________ ");
+        System.out.println("Area and paremeter of second rectangle ");
         Robj2.Area();
         Robj2.Perimeter();
         Robj2.display();
 
-        System.out.println("________________________________________ ");
+        System.out.println("Volume of first cube ");
 
         Cobj1.volume();
         Cobj1.display();
-        System.out.println("________________________________________ ");
+        System.out.println("Volume ofSecond cube ");
 
         Cobj2.volume();
         Cobj2.display();
@@ -76,9 +76,3 @@ public class QuadTest {
 
     }
 }
-
-
-
-
-
-
